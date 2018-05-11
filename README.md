@@ -1,2 +1,7 @@
 # EasyBack
- Sequence similarity is more relevant than species specificity in probabilistic backtranslation
+> Sequence similarity is more relevant than species specificity in probabilistic backtranslation
+
+### Description:
+Backtranslation is the process of decoding a sequence of amino acids into the corresponding codons. All synthetic gene design systems include a backtranslation module. The degeneracy of the genetic code makes backtranslation potentially ambiguous since most amino acids are encoded by multiple codons. The common approach to overcome this difficulty is based on imitation of codon usage within the target species. EasyBack is a new parameter-free, fully-automated software for backtranslation using Hidden Markov Models. EasyBack is not based on imitation of codon usage within the target species, but instead uses a sequence-similarity criterion. The model is trained with a set of proteins with known cDNA coding sequences, constructed from the input protein by querying the NCBI databases with BLAST. Unlike existing software, the proposed method allows the quality of prediction to be estimated. When tested on a group of proteins that show different degrees of sequence conservation, EasyBack outperforms other published methods in terms of precision. The prediction quality of a protein backtranslation methis markedly increased by replacing the criterion of most used codon in the same species with a Hidden Markov Model trained with a set of most similar sequences from all species. Moreover, the proposed method allows the quality of prediction to be estimated probabilistically.
+
+#### *[<span style="color:blue"> Go to site </span>](https://ferrolab.dmi.unict.it/sigma.html)*
